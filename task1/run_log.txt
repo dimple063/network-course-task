@@ -1,0 +1,45 @@
+
+
+--- TCP客户端启动 (进程PID: 32792) ---
+[2026-06-12 11:36:03.912857][CLIENT-32792]读取文件test.txt完成，总长度：158字节
+[2026-06-12 11:36:03.912857][CLIENT-32792]文件分块完成，总块数N=16
+[2026-06-12 11:36:03.915249][CLIENT-32792]成功连接服务端192.168.13.128:8888
+[2026-06-12 11:36:03.915249][CLIENT-32792]发送Initialization报文(Type=1)，总块数N=16
+[2026-06-12 11:36:03.915249][CLIENT-32792]收到agree报文(Type=2)
+[2026-06-12 11:36:03.916282][CLIENT-32792]发送reverseRequest报文(Type=3)，第1块，长度8字节
+[2026-06-12 11:36:03.916282][CLIENT-32792]收到reverseAnswer报文(Type=4),第1块，反转内容：elttil a
+[2026-06-12 11:36:03.930730][CLIENT-32792]发送reverseRequest报文(Type=3)，第2块，长度5字节
+[2026-06-12 11:36:03.930730][CLIENT-32792]收到reverseAnswer报文(Type=4),第2块，反转内容：knom 
+[2026-06-12 11:36:03.946642][CLIENT-32792]发送reverseRequest报文(Type=3)，第3块，长度13字节
+[2026-06-12 11:36:03.947642][CLIENT-32792]收到reverseAnswer报文(Type=4),第3块，反转内容：lrow olleh ye
+[2026-06-12 11:36:03.962020][CLIENT-32792]发送reverseRequest报文(Type=3)，第4块，长度12字节
+[2026-06-12 11:36:03.963014][CLIENT-32792]收到reverseAnswer报文(Type=4),第4块，反转内容：pct nohtyp d
+[2026-06-12 11:36:03.977770][CLIENT-32792]发送reverseRequest报文(Type=3)，第5块，长度12字节
+[2026-06-12 11:36:03.978767][CLIENT-32792]收到reverseAnswer报文(Type=4),第5块，反转内容：wten tekcos 
+[2026-06-12 11:36:03.993785][CLIENT-32792]发送reverseRequest报文(Type=3)，第6块，长度9字节
+[2026-06-12 11:36:03.994781][CLIENT-32792]收到reverseAnswer报文(Type=4),第6块，反转内容：rgorp kro
+[2026-06-12 11:36:04.008484][CLIENT-32792]发送reverseRequest报文(Type=3)，第7块，长度8字节
+[2026-06-12 11:36:04.009402][CLIENT-32792]收到reverseAnswer报文(Type=4),第7块，反转内容：t
+gnimma
+[2026-06-12 11:36:04.024352][CLIENT-32792]发送reverseRequest报文(Type=3)，第8块，长度7字节
+[2026-06-12 11:36:04.025352][CLIENT-32792]收到reverseAnswer报文(Type=4),第8块，反转内容： si sih
+[2026-06-12 11:36:04.040530][CLIENT-32792]发送reverseRequest报文(Type=3)，第9块，长度18字节
+[2026-06-12 11:36:04.041557][CLIENT-32792]收到reverseAnswer报文(Type=4),第9块，反转内容：ct rof elif tset a
+[2026-06-12 11:36:04.055298][CLIENT-32792]发送reverseRequest报文(Type=3)，第10块，长度6字节
+[2026-06-12 11:36:04.056296][CLIENT-32792]收到reverseAnswer报文(Type=4),第10块，反转内容：ever p
+[2026-06-12 11:36:04.071243][CLIENT-32792]发送reverseRequest报文(Type=3)，第11块，长度5字节
+[2026-06-12 11:36:04.072182][CLIENT-32792]收到reverseAnswer报文(Type=4),第11块，反转内容：t esr
+[2026-06-12 11:36:04.086719][CLIENT-32792]发送reverseRequest报文(Type=3)，第12块，长度7字节
+[2026-06-12 11:36:04.088634][CLIENT-32792]收到reverseAnswer报文(Type=4),第12块，反转内容：pah
+ksa
+[2026-06-12 11:36:04.102109][CLIENT-32792]发送reverseRequest报文(Type=3)，第13块，长度11字节
+[2026-06-12 11:36:04.104632][CLIENT-32792]收到reverseAnswer报文(Type=4),第13块，反转内容：e gnidoc yp
+[2026-06-12 11:36:04.117940][CLIENT-32792]发送reverseRequest报文(Type=3)，第14块，长度12字节
+[2026-06-12 11:36:04.119274][CLIENT-32792]收到reverseAnswer报文(Type=4),第14块，反转内容：saT
+yad yrev
+[2026-06-12 11:36:04.133359][CLIENT-32792]发送reverseRequest报文(Type=3)，第15块，长度5字节
+[2026-06-12 11:36:04.133359][CLIENT-32792]收到reverseAnswer报文(Type=4),第15块，反转内容：CT 1k
+[2026-06-12 11:36:04.149289][CLIENT-32792]发送reverseRequest报文(Type=3)，第16块，长度20字节
+[2026-06-12 11:36:04.149289][CLIENT-32792]收到reverseAnswer报文(Type=4),第16块，反转内容：gnimmargorp tekcoS P
+[2026-06-12 11:36:04.164466][CLIENT-32792]完整反转文件reverse_total.txt生成完成！
+[2026-06-12 11:36:04.165685][CLIENT-32792]客户端连接关闭，程序结束
