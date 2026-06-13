@@ -161,10 +161,13 @@ def main():
 
     #pandas统计
     df=pd.Series(rtt_list)  #把列表转换成一维序列
-    loss_rate=(30/actual_send_count)*100
+    task_loss_rate=(TOTAL_PACKETS/actual_send_count)*100
+    real_loss_rate=((actual_send_count-TOTAL_PACKETS)/actual_send_count)*100
+    # (实际发送总包数 - 成功送达总包数) / 实际发送总包数 × 100%
     print("【UDP可靠传输实验统计汇总】")
     print(f"目标发送包数：{TOTAL_PACKETS}，实际网卡发包总数：{actual_send_count}")
-    print(f"丢包率：{loss_rate:.2f}%")
+    print(f"丢包率：{task_loss_rate:.2f}%")
+    print(f"真实丢包率：{real_loss_rate:.2f}%")
     print(f"最大RTT:{df.max():.2f}ms")
     print(f"最小RTT：{df.min():.2f}ms")
     print(f"平均RTT：{df.mean():.2f}ms")
